@@ -13,9 +13,9 @@ import {
   ValidationPipe
 } from '@nestjs/common'
 import { AuthGuard } from '@nestjs/passport'
-import { UserDecorator } from 'src/auth/auth.decorator'
-import { User } from 'src/auth/user.entity'
-import { StatusValidationPipe } from 'src/base/status-validation.pipe'
+import { UserDecorator } from '../auth/auth.decorator'
+import { User } from '../auth/user.entity'
+import { StatusValidationPipe } from '../base/status-validation.pipe'
 import { Coffee } from './coffee.entity'
 import { CoffeeDTO, CoffeeStatus, FiltersDTO } from './coffee.interface'
 import { CoffeesService } from './coffees.service'

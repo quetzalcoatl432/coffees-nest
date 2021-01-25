@@ -1,5 +1,5 @@
 import { ArgumentMetadata, BadRequestException, Injectable, PipeTransform } from '@nestjs/common'
-import { CoffeeStatus } from 'src/coffees/coffee.interface'
+import { CoffeeStatus } from '../coffees/coffee.interface'
 
 @Injectable()
 export class StatusValidationPipe implements PipeTransform {
